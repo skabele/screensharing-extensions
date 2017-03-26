@@ -1,11 +1,7 @@
 
 var customer_domains = [
-    "bistri.com",
-    "bistri.me",
-    "*.bistri.com",
-    "*.bistri.me",
-    "fiddle.jshell.net/*",
-    "run.jsbin.io/*"
+    "localhost",
+    "127.0.0.1"
 ];
 
 /*

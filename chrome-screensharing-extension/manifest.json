@@ -1,6 +1,6 @@
 {
-    "name": "Bistri Screen Sharing",
-    "description": "This extension allows you to share your screen",
+    "name": "Simple Screen Share",
+    "description": "This extension allows you to share your screen as long as page is loaded from localhost",
     "version": "1.1",
     "manifest_version": 2,
     "minimum_chrome_version": "34",
@@ -13,10 +13,8 @@
     "content_scripts": [ {
         "js": [ "bridge.js" ],
         "matches": [
-            "*://*.bistri.com/*",
-            "*://*.bistri.me/*",
-            "*://fiddle.jshell.net/*",
-            "*://run.jsbin.io/*"
+            "*://127.0.0.1/*",
+            "*://localhost/*"
         ]
     } ],
     "permissions": [
